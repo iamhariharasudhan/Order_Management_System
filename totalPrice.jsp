@@ -14,7 +14,6 @@ margin:0;
 padding:0;
 }
 
-/* Card Container */
 
 .container{
 width:420px;
@@ -26,14 +25,11 @@ box-shadow:0 10px 25px rgba(0,0,0,0.1);
 text-align:center;
 }
 
-/* Title */
-
 h2{
 margin-bottom:25px;
 color:#333;
 }
 
-/* Input */
 
 input{
 width:100%;
@@ -44,7 +40,7 @@ border-radius:6px;
 font-size:14px;
 }
 
-/* Button */
+
 
 button{
 width:100%;
@@ -62,7 +58,6 @@ button:hover{
 background:#138496;
 }
 
-/* Result box */
 
 .result{
 margin-top:25px;
@@ -74,7 +69,7 @@ color:#333;
 border-radius:6px;
 }
 
-/* Back link */
+
 
 .back{
 display:inline-block;
@@ -126,4 +121,5 @@ Total Price : <%= request.getAttribute("totalPrice") %>
 </div>
 
 </body>
+
 </html>
